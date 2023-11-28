@@ -7,7 +7,7 @@ nav_order: 2
 
 # Why?
 
-This specification defines a powerful set of API that help to improve the structure of your solution
+Natural Language Oriented Specifications for Enterprise and Software Applications focused on Conversational Design
 {: .fs-6 }
 {: .fw-300 }
 ---

@@ -8,7 +8,7 @@ layout: home
 API and core concepts to build natural language oriented applications
 {: .fs-6 }
 {: .fw-300 }
-[Get started now](/concepts){: .btn .btn-purple } [View it on Github](https://github.com/openpheme){: .btn }
+[Why?](/why){: .btn .btn-purple } [Get started now](/concepts){: .btn .btn-purple } [View it on Github](https://github.com/openpheme){: .btn }
 
 ⚠️ Under development
 {: .label .label-yellow }
