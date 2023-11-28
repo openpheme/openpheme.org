@@ -3,9 +3,9 @@ layout: home
 ---
 
 ![Alt text](https://raw.githubusercontent.com/openpheme/.github/main/profile/logo.svg)
-# Conversational design specification for Enterprise
+# Conversational Design Specifications
 
-Implement cutting-edge conversational and natural language applications for enhanced Enterprise applications.
+API and core concepts to build natural language oriented applications
 {: .fs-6 }
 {: .fw-300 }
 [Get started now](/concepts){: .btn .btn-purple } [View it on Github](https://github.com/openpheme){: .btn }

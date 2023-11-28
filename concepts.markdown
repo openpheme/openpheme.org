@@ -2,7 +2,7 @@
 layout: page
 title: Concepts
 permalink: /concepts/
-nav_order: 2
+nav_order: 3
 ---
 
 # Concepts
@@ -35,8 +35,10 @@ exemplifies the performative nature of language within the context of a marriage
 In each of these examples, it becomes evident that the act of uttering the sentence, when appropriately situated within the relevant context, extends beyond the boundaries of description. Rather, it constitutes the very act being performed, and the truth value of the utterance becomes irrelevant.
 
 Understanding and appreciating the performative dimensions of language in conversation enables us to grasp the intricacies of communication beyond the mere exchange of factual information. By recognizing and accommodating the diverse functions of speech acts within a conversational system, we can design more nuanced and effective interactive experiences.
+
 ## Intent
-The core concept of a Speech Act revolves around the notion of an intent. An intent represents the communicative intention of a user that is conveyed through an utterance. It serves as the central building block for understanding and interpreting human language in conversational systems.
+The core concept of a Speech Act revolves around the notion of an **intent**. An intent represents the actual communicative intention of a user that is conveyed through an utterance. 
+From a linguistic prospective this corresponds to [illocutionary](https://en.wikipedia.org/wiki/Illocutionary_act) acts. We keep "intent" naming because this term is become used and more user friendly. It serves as the central building block for understanding and interpreting human language in conversational systems.
 
 A Speech Act design can be likened to an application programming interface (API), which functions as a contract between a client and a server. Just as an API adheres to a formal definition and must be evaluated during compile time, a speech act should also respect the specified contract. Like an API, a speech act can have both a happy flow and various sad flows, depending on the context in which it operates during runtime.
 
@@ -49,3 +51,13 @@ The expressive capabilities of different languages vary, with some languages off
 An important aspect of an intent is its performative component. Within this context, a use case is expressed through the will of the user using natural language or even gestures in more complex scenarios. This expressive medium allows for the routing to a specific implementation of the intent, guiding the system towards the intended action or response.
 
 To achieve this, a Language Understanding Model (LLM) or other logical mechanisms are employed to match the user's utterance against the existing context and content, leading to the appropriate routing of the intent's performative logic. This matching process forms the foundation of effective intent understanding and serves as a critical step in enabling accurate and context-aware conversational interactions.
+
+## Reference
+
+A **reference** is a link to something in the world, that the user is putting in evidence using an utterance. As defined inside
+**Speech Acts** ([Searle](https://en.wikipedia.org/wiki/John_Searle), 1969):
+
+> "It is characteristic of each of these expressions that their utterance serves to pick out or identify one 'object' or 'entity' or 'particular' apart from other
+objects, about which the speaker then goes on to say something, or ask some question, etc."
+
+> "Any expression which serves to identify anything, process, event, action, or any other kind of ' individual' or 'particular' I shall call a referring expression"

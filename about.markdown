@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-nav_order: 4
+nav_order: 5
 ---
 
 Welcome to the OpenPheme "About" page.
